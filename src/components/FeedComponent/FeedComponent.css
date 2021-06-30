@@ -1,0 +1,59 @@
+.feed-component-container {
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.feed-heading {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+}
+
+.feed-heading-left {
+    flex: 1;
+    margin-right: 2rem;
+}
+
+.feed-heading-left > h4 {
+    font-size: 1.3rem;
+    font-style: italic;
+    color: purple;
+    font-weight: 700;
+}
+
+.feed-heading-right {
+    padding: 1rem;
+    background-color: teal;
+    border-radius: 0.3rem;
+    color: white;
+    text-align: justify;
+    
+}
+
+.feed-heading-right > h1 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.feed-heading-right > p {
+    font-size: 1rem;
+    letter-spacing: 0.6rem;
+    padding-right: 0;
+    text-align: right;
+}
+
+.feed-commentary {
+    padding: 1rem;
+
+}
+
+.feed-commentary > p {
+    font-size: 0.8rem;
+    color: #243746;
+}
+
+.feed-component-icons {
+    
+}

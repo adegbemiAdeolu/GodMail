@@ -1,0 +1,10 @@
+.icon-component-container {
+    border: 1px solid grey;
+    border-radius: 50%;
+    color: grey;
+}
+
+.icon-component-container > p {
+    font-size: 0.6rem;
+    font-weight: 700;
+}

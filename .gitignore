@@ -7,6 +7,7 @@ package.json
 .pnp.js
 .eslintrc.json
 package-lock.json
+src/images/
 
 
 # testing

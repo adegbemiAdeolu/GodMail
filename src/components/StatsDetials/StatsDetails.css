@@ -1,0 +1,22 @@
+.stats-details-container {
+    background-color: #d5e7f3;
+    display: flex;
+    border-radius: 0.3rem;
+    padding: 0.5rem 1rem;
+    width: fit-content;
+    margin-bottom: 0.5rem;
+}
+
+.stats-details-stat {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.stats-details-stat > h3 {
+    margin: 0 0.2rem 0 0.5rem;
+}
+
+.stats-details-stat > p {
+    margin-left: 1rem;
+}

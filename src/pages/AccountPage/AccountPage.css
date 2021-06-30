@@ -1,0 +1,23 @@
+.account-page-container {
+    
+}
+
+.account-page-bottom {
+    display: flex;
+    flex-direction: row;
+    row-gap: 0.8rem;
+    padding: 2rem;
+    align-items: center;
+}
+
+.accout-page-data {
+    flex: 0.3;
+    margin-right: 0.8rem;
+    border-radius: 5px;
+    background-color: #f0f6fa;
+}
+
+.accout-page-details {
+    flex: 0.7;
+    margin-left: 2rem;
+}

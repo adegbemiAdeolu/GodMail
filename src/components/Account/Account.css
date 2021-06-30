@@ -1,0 +1,39 @@
+.account-component-container {
+    
+
+
+}
+
+.account-component-wrapper {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.account-component-avatar {
+    margin: auto;
+    text-align: center;
+}
+
+
+.account-component-image {
+
+    background-color: #741181;
+    width: 100%;
+    height: 30vh;
+    margin-bottom: -60px;
+}
+
+.account-component-details {
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.account-component-details > h3 {
+    color: #7a2086;
+}
+
+.account-component-details > h5 {
+    color: #525252;
+}

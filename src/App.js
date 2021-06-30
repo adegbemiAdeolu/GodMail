@@ -1,8 +1,15 @@
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import AccountPage from "./pages/AccountPage";
+import Home from "./pages/index";
+
 function App() {
   return (
-    <div className="App">
-      <h1>My App</h1>
-    </div>
+    <Router>
+      <Switch>
+        <Route path="/" component={Home} exact />
+        <Route path="/my-account" component={AccountPage} exact />
+      </Switch>
+    </Router>
   );
 }
 

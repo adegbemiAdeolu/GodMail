@@ -1,0 +1,23 @@
+
+[
+    {
+        "id": 1,
+        "Icon": "",
+        "statTitle": "Scriptures",
+        "statCount": "12"
+    },
+
+    {
+        "id": 2,
+        "Icon": "",
+        "statTitle": "Commentary",
+        "statCount": "12"
+    },
+
+    {
+        "id": 3,
+        "Icon": "",
+        "statTitle": "Likes",
+        "statCount": "127"
+    }
+]
