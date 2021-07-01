@@ -1,5 +1,6 @@
 import React from 'react'
 import FeedComponent from '../FeedComponent'
+import feed from "./Data.json"
 import "./OwnerFeed.css"
 
 export default function OwnerFeed() {
@@ -11,7 +12,12 @@ export default function OwnerFeed() {
             </div>
 
             <div className="owner-feed-feeds">
-                <FeedComponent />
+                {feed.map((item) => (
+                    <FeedComponent
+                        key={item.id}
+                        {...item}
+                    />
+                ))}
             </div>
             
         </div>

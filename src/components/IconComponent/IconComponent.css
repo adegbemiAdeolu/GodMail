@@ -1,10 +1,20 @@
 .icon-component-container {
-    border: 1px solid grey;
+    border: 1px solid transparent;
     border-radius: 50%;
-    color: grey;
+    color: purple;
+    align-items: center;
+    text-align: center;
+}
+
+.icon-component-icon {
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
 
 .icon-component-container > p {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     font-weight: 700;
+    padding: 0;
+    text-align: center;
 }

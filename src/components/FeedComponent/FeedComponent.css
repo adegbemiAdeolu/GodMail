@@ -2,12 +2,14 @@
     margin: 2rem;
     display: grid;
     grid-template-columns: 1fr;
+    border-bottom: solid 1px grey;
 }
 
 .feed-heading {
     display: flex;
     justify-content: space-between;
     padding-bottom: 0.5rem;
+    border-bottom: solid 1px grey;
 }
 
 .feed-heading-left {
@@ -46,6 +48,7 @@
 
 .feed-commentary {
     padding: 1rem;
+    text-align: justify;
 
 }
 
@@ -55,5 +58,16 @@
 }
 
 .feed-component-icons {
+    width: 15%;
+    justify-self: end;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feed-component-icons-item {
+    display: flex;
+    width: 3rem;
+    height: 3rem;
     
 }
